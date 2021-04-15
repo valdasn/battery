@@ -1,0 +1,127 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background-color: cadetblue;
+  .battery__frame {
+    width: 500px;
+    height: 250px;
+    margin-left: calc(50% - 250px);
+    margin-top: 300px;
+    border: 4px black solid;
+    border-radius: 16px;
+    .bars{
+    .bar__1 {
+      width: 85px;
+      height: 230px;
+      background-color: red;
+      margin-top: 6px;
+      margin-left: 11px;
+      float: left;
+      animation: bar__1 4s infinite;
+      border-radius: 20px;
+    }
+
+    @keyframes bar__1 {
+        0%,15%{
+            opacity: 0;
+        }
+        30%,100% {
+            opacity: 1;
+        }
+    }
+
+    .bar__2 {
+        width: 85px;
+        height: 230px;
+        background-color: orangered;
+        margin-top: 6px;
+        margin-left: 11px;
+        float: left;
+        animation: bar__2 4s infinite;
+        border-radius: 20px;
+      }
+
+      @keyframes bar__2 {
+        0%,30%{
+            opacity: 0;
+        }
+        45%,100%{
+            opacity: 1;
+        }
+    }
+
+      .bar__3 {
+        width: 85px;
+        height: 230px;
+        background-color: orange;
+        margin-top: 6px;
+        margin-left: 11px;
+        float: left;
+        animation: bar__3 4s infinite;
+        border-radius: 20px;
+      }
+
+      @keyframes bar__3 {
+        0%,45%{
+            opacity: 0;
+        }
+        60%,100%{
+            opacity: 1;
+        }
+    }
+
+      .bar__4 {
+        width: 85px;
+        height: 230px;
+        background-color: yellow;
+        margin-top: 6px;
+        margin-left: 11px;
+        float: left;
+        animation: bar__4 4s infinite;
+        border-radius: 20px;
+      }
+
+      @keyframes bar__4 {
+        0%,60%{
+            opacity: 0;
+        }
+        75%,100%{
+            opacity: 1;
+        }
+
+    }
+
+      .bar__5 {
+        width: 85px;
+        height: 230px;
+        background-color: green;
+        margin-top: 6px;
+        margin-left: 11px;
+        float: left;
+        animation: bar__5 4s infinite;
+        border-radius: 20px;
+      }
+
+      @keyframes bar__5 {
+        0%,75%{
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    }
+    .battery__side {
+        width: 14px;
+        height: 40px;
+        background-color: black;
+        margin-left: 492px;
+        border-radius: 30px;
+        margin-top: calc(50% - 150px);
+    }
+  }
+}
+
+
