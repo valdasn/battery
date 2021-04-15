@@ -110,7 +110,6 @@ h6 {
 .wrapper .battery__frame .bars .bar__1 {
   width: 85px;
   height: 230px;
-  background-color: red;
   margin-top: 6px;
   margin-left: 11px;
   float: left;
@@ -126,6 +125,24 @@ h6 {
   30%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes bar__1 {
@@ -135,12 +152,29 @@ h6 {
   30%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
-.wrapper .battery__frame .bars .bar__2 {
+.wrapper .battery__frame .bar__2 {
   width: 85px;
   height: 230px;
-  background-color: orangered;
   margin-top: 6px;
   margin-left: 11px;
   float: left;
@@ -156,6 +190,24 @@ h6 {
   45%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes bar__2 {
@@ -165,12 +217,29 @@ h6 {
   45%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
-.wrapper .battery__frame .bars .bar__3 {
+.wrapper .bar__3 {
   width: 85px;
   height: 230px;
-  background-color: orange;
   margin-top: 6px;
   margin-left: 11px;
   float: left;
@@ -186,6 +255,24 @@ h6 {
   60%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes bar__3 {
@@ -195,12 +282,29 @@ h6 {
   60%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
-.wrapper .battery__frame .bars .bar__4 {
+.wrapper .bar__4 {
   width: 85px;
   height: 230px;
-  background-color: yellow;
   margin-top: 6px;
   margin-left: 11px;
   float: left;
@@ -216,6 +320,24 @@ h6 {
   75%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes bar__4 {
@@ -225,12 +347,29 @@ h6 {
   75%, 100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
-.wrapper .battery__frame .bars .bar__5 {
+.wrapper .bar__5 {
   width: 85px;
   height: 230px;
-  background-color: green;
   margin-top: 6px;
   margin-left: 11px;
   float: left;
@@ -246,6 +385,24 @@ h6 {
   100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
 @keyframes bar__5 {
@@ -255,9 +412,27 @@ h6 {
   100% {
     opacity: 1;
   }
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: orangered;
+  }
+  45% {
+    background-color: orange;
+  }
+  60% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
 }
 
-.wrapper .battery__frame .battery__side {
+.battery__side {
   width: 14px;
   height: 40px;
   background-color: black;

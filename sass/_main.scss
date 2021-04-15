@@ -15,7 +15,6 @@
     .bar__1 {
       width: 85px;
       height: 230px;
-      background-color: red;
       margin-top: 6px;
       margin-left: 11px;
       float: left;
@@ -24,18 +23,25 @@
     }
 
     @keyframes bar__1 {
-        0%,15%{
-            opacity: 0;
-        }
-        30%,100% {
-            opacity: 1;
+       0%,15%{
+             opacity: 0;
+         }
+         30%,100% {
+             opacity: 1;}
+        15%  {background-color:red; }
+        30%  {background-color:orangered; }
+        45%  {background-color:orange; }
+        60%  {background-color: yellow;}
+        75%  {background-color: yellowgreen;}
+        100%  {background-color: green;}
+
+
         }
     }
 
     .bar__2 {
         width: 85px;
         height: 230px;
-        background-color: orangered;
         margin-top: 6px;
         margin-left: 11px;
         float: left;
@@ -44,18 +50,24 @@
       }
 
       @keyframes bar__2 {
-        0%,30%{
-            opacity: 0;
-        }
-        45%,100%{
-            opacity: 1;
+         0%,30%{
+             opacity: 0;
+         }
+         45%,100%{
+             opacity: 1;}
+             15%  {background-color:red; }
+             30%  {background-color:orangered; }
+             45%  {background-color:orange; }
+             60%  {background-color: yellow;}
+             75%  {background-color: yellowgreen;}
+             100%  {background-color: green;}
+
         }
     }
 
       .bar__3 {
         width: 85px;
         height: 230px;
-        background-color: orange;
         margin-top: 6px;
         margin-left: 11px;
         float: left;
@@ -64,18 +76,23 @@
       }
 
       @keyframes bar__3 {
-        0%,45%{
-            opacity: 0;
-        }
-        60%,100%{
-            opacity: 1;
-        }
+             0%,45%{
+             opacity: 0;
+         }
+         60%,100%{
+             opacity: 1;
+         }
+         15%  {background-color:red; }
+         30%  {background-color:orangered; }
+         45%  {background-color:orange; }
+         60%  {background-color: yellow;}
+         75%  {background-color: yellowgreen;}
+         100%  {background-color: green;}
     }
 
       .bar__4 {
         width: 85px;
         height: 230px;
-        background-color: yellow;
         margin-top: 6px;
         margin-left: 11px;
         float: left;
@@ -84,19 +101,24 @@
       }
 
       @keyframes bar__4 {
-        0%,60%{
-            opacity: 0;
-        }
-        75%,100%{
-            opacity: 1;
-        }
+         0%,60%{
+             opacity: 0;
+         }
+         75%,100%{
+             opacity: 1;
+         }
+         15%  {background-color:red; }
+         30%  {background-color:orangered; }
+         45%  {background-color:orange; }
+         60%  {background-color: yellow;}
+         75%  {background-color: yellowgreen;}
+         100%  {background-color: green;}
 
     }
 
       .bar__5 {
         width: 85px;
         height: 230px;
-        background-color: green;
         margin-top: 6px;
         margin-left: 11px;
         float: left;
@@ -105,12 +127,18 @@
       }
 
       @keyframes bar__5 {
-        0%,75%{
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
+         0%,75%{
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+         15%  {background-color:red; }
+         30%  {background-color:orangered; }
+         45%  {background-color:orange; }
+         60%  {background-color: yellow;}
+         75%  {background-color: yellowgreen;}
+         100%  {background-color: green;}
     }
     }
     .battery__side {
@@ -121,7 +149,4 @@
         border-radius: 30px;
         margin-top: calc(50% - 150px);
     }
-  }
-}
-
 
